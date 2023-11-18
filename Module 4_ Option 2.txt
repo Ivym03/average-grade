@@ -1,0 +1,60 @@
+﻿Option 2: Repetition Control Structure - Grade Statistics
+
+
+# Create list to store grade values
+grades = list()
+# Prompt the message to input 5 grade points
+print("Enter 5 floating grades: ")
+Enter 5 floating grades: 
+# Loop executes 5 times to take 5 grade values
+for i in range(int(5)):
+    # get input from user
+    n=input("Enter Grade: ")
+    # store floating-point grade value into list
+    grades.append(float(n))
+
+
+    
+Enter Grade: 99
+Enter Grade: 97
+Enter Grade: 85
+Enter Grade: 56
+Enter Grade: 94
+# initialize sum by 0
+sum = 0
+# loop to calculate the total of all the grades
+for a in grades:
+    sum = sum + a
+
+
+    
+# calculate average of grades
+average = sum / 5
+# initialize maximum by grade[0]
+maximum = grades[ 0 ]
+# loop to find maximum grade in the list
+for a in grades:
+    #find maximum grades
+    if a > maximum:
+        maximum = a
+
+
+        
+# initialize minimum by grade[0]
+minimum = grades[ 0 ]
+# loop to find minimum grade in the list
+for a in grades:
+    # compare grades to find minimum grade
+    if a < minimum:
+        minimum = a
+
+
+        
+# display average, maximum and minimum grades
+Average Grades =  86.2
+print("Maximum Grades = ",maximum)
+      
+Maximum Grades =  99.0
+print("Minimum Grades = ",minimum)
+      
+Minimum Grades =  56.0
