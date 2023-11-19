@@ -1,6 +1,3 @@
-﻿Option 2: Repetition Control Structure - Grade Statistics
-
-
 # Create list to store grade values
 grades = list()
 # Prompt the message to input 5 grade points
